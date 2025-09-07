@@ -5,6 +5,7 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Right Hand1/Topic1
+        - /TF1/Frames1
       Splitter Ratio: 0.5
     Tree Height: 649
   - Class: rviz_common/Selection
@@ -106,6 +107,34 @@ Visualization Manager:
         Reliability Policy: Reliable
         Value: /right_hand
       Value: true
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: false
+        headset:
+          Value: true
+        left_hand:
+          Value: true
+        right_hand:
+          Value: true
+        world:
+          Value: false
+      Marker Scale: 0.5
+      Name: TF
+      Show Arrows: false
+      Show Axes: false
+      Show Names: true
+      Tree:
+        world:
+          headset:
+            {}
+          left_hand:
+            {}
+          right_hand:
+            {}
+      Update Interval: 0
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -152,25 +181,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 1.4270106554031372
+      Distance: 1.2892351150512695
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.46455082297325134
-        Y: -0.22489559650421143
-        Z: 1.047743797302246
+        X: -0.022276896983385086
+        Y: 0.08098682761192322
+        Z: 0.8347674608230591
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.6953976154327393
+      Pitch: 1.2147966623306274
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.63857364654541
+      Yaw: 3.2185752391815186
     Saved: ~
 Window Geometry:
   Displays:
