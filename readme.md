@@ -1,7 +1,7 @@
 # Introduction
 A project demonstrating teleoperation of robot using a VR headset.
 
-![ros_tracking_hand](doc/ros_hand_tracking.GIF)
+![ros_tracking_hand](doc/ros_hand_tracker.gif)
 
 # Requirement
 The project has been tested on:
